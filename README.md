@@ -2,21 +2,6 @@
 
 This repository demonstrates a **multimodal fusion pipeline** using real ECG data, X-ray images, and symptom text, combined into a prompt for a lightweight LLM (OPT-350M) to generate medical reasoning.
 
----
-
-## Project Structure
-
-
-multimodal-llm-project/
-│
-├─ notebooks/
-│ └─ multimodal_demo.ipynb # Main Colab notebook
-│
-├─ data/ # Optional: ECG/X-ray sample files
-├─ requirements.txt # Python dependencies
-├─ README.md
-└─ .gitignore
-
 
 ---
 
@@ -38,10 +23,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/multimodal-llm-demo.git
 cd multimodal-llm-demo
-
-Install dependencies:
-
-pip install -r requirements.txt
 
 Recommended: run in Google Colab to use GPU.
 
@@ -65,7 +46,6 @@ Fuse features and generate reasoning via LLM.
 
 The last cell prints the medical interpretation output.
 
-Notes
 
 ECG heart rate and signal mean are scaled for clarity.
 
