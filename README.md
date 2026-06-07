@@ -21,7 +21,7 @@ This repository demonstrates a **multimodal fusion pipeline** using real ECG dat
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/multimodal-llm-demo.git
+git clone https://github.com/girl71/multimodal-llm-demo.git
 cd multimodal-llm-demo
 
 Recommended: run in Google Colab to use GPU.
